@@ -32,7 +32,7 @@ To use the URL shortener, you can make requests to the following routes defined 
 
 - [`GET /:id`]: This route accepts a shortened URL code as a parameter and redirects the user to the original long URL. Example usage:
     ```sh
-    curl http://localhost:3000/abc123
+    Go to this link in a browser: http://localhost:3000/abc123
     ```
 
 - [`POST /:id`]: This route returns the number of clicks for a given shortened URL. Example usage:
